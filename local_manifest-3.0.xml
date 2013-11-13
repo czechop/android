@@ -16,7 +16,9 @@
   <remove-project name="platform/bootable/recovery" /> 
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/hardware/ti/wpan"/>
-  <remove-project name="platform/system/vold"/>
+  <remove-project name="platform/hardware/libhardware"/>
+  <remove-project name="platform/hardware/ti/wlan"/>
+  <remove-project name="platform/hardware/ti/omap3"/>
 
   <project path="build" name="Quarx2k/platform_build" remote="github" revision="kitkat" />
   <project path="bionic" name="Quarx2k/android_bionic" remote="github" revision="kitkat" />
@@ -25,12 +27,12 @@
   <project path="frameworks/native" name="Quarx2k/android_frameworks_native" remote="github" revision="kitkat"  />
   <project path="hardware/ril" name="Quarx2k/android_hardware_ril"  remote="github" revision="kitkat"  />
   <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" remote="github" revision="twrp2.7"  />
-  <project path="vendor/motorola" name="Quarx2k/proprietary_vendor_motorola" remote="github" revision="cm10.1-3.0"  />
-  <project path="device/moto/jordan-common" name="Quarx2k/android_device_moto_jordan-common" remote="github" revision="aosp-kitkat-3.x" />
-  <project path="device/moto/mb526" name="Quarx2k/android_device_moto_mb526" remote="github" revision="kitkat-aosp"  />
+  <project path="vendor/motorola" name="czechop/proprietary_vendor_motorola" remote="github" revision="cm10.1-3.0"  />
+  <project path="device/moto/jordan-common" name="czechop/android_device_moto_jordan-common" remote="github" revision="aosp-kitkat-3.x" />
+  <project path="device/moto/milestone2" name="czechop/android_device_moto_milestone2" remote="github" revision="kitkat-aosp"  />
   <project path="external/bootmenu" name="Quarx2k/android_external_bootmenu" remote="github" revision="jellybean" />
   <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" remote="github" revision="master"  />
-  <project path="jordan-kernel" name="Quarx2k/jordan-kernel" remote="github" revision="p-android-omap3-3.0" />
+  <project path="jordan-kernel" name="czechop/jordan-kernel" remote="github" revision="p-android-omap3-3.0" />
   <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" remote="github" revision="kitkat"  />
   <project path="system/core" name="Quarx2k/android_system_core" remote="github" revision="kitkat"  />
   <project path="frameworks/opt/telephony" name="Quarx2k/android_frameworks_opt_telephony" remote="github" revision="kitkat"  />
@@ -39,8 +41,10 @@
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="github"  revision="cm-11.0"   /> 
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="github" revision="cm-11.0"   /> 
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="github" revision="cm-11.0" /> 
-  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="cm-11.0" groups="pdk" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" revision="cm-11.0" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-11.0" />
+  <project path="hardware/libhardware" name="Quarx2k/android_hardware_libhardware"  remote="github" revision="kitkat"  />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="github"  revision="cm-11.0"   />
+  <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="github"  revision="cm-11.0"   />
 
 </manifest>

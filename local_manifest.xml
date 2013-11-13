@@ -11,6 +11,7 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/hardware/ti/omap3" />
@@ -18,7 +19,6 @@
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/hardware/ti/wlan"/>
   <remove-project name="platform/hardware/ti/wpan"/>
-  <remove-project name="platform/system/vold"/>
 
   <project path="build" name="Quarx2k/platform_build" remote="github" revision="kitkat" />
   <project path="bionic" name="Quarx2k/android_bionic" remote="github" revision="kitkat" />
@@ -38,6 +38,7 @@
   <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" remote="github" revision="master"  />
   <project path="jordan-kernel" name="czechop/jordan-kernel" remote="github" revision="AeroKernel" />
   <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" remote="github" revision="kitkat"  />
+  <project path="hardware/libhardware" name="Quarx2k/android_hardware_libhardware" remote="github" revision="kitkat"  />
   <project path="system/core" name="Quarx2k/android_system_core" remote="github" revision="kitkat"  />
   <project path="frameworks/opt/telephony" name="Quarx2k/android_frameworks_opt_telephony" remote="github" revision="kitkat"  />
   <project path="hardware/ti/wlan" name="Quarx2k/android_hardware_ti_wlan" remote="github"  revision="cm-10.2"   />
@@ -46,7 +47,6 @@
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="github"  revision="cm-11.0"   /> 
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="github" revision="cm-11.0"   /> 
   <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="github" revision="cm-11.0" /> 
-  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="cm-11.0" groups="pdk" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" revision="cm-11.0" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-11.0" />
 
