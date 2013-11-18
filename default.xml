@@ -6,7 +6,7 @@
            review="android-review.googlesource.com" />
 
   <remote  name="github"
-           fetch=".."
+           fetch="https://github.com"
            review="review.cyanogenmod.org" />
 
   <remote  name="private"
@@ -293,7 +293,7 @@
   <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" />
-  <project path="frameworks/support" name="CyanogenMod/android_frameworks_support"/>
+  <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" />
   <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project path="frameworks/volley" name="CyanogenMod/android_frameworks_volley" />

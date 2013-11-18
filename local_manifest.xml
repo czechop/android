@@ -5,7 +5,7 @@
 
   <!-- CM removals -->
 
-
+  <remove-project name="CyanogenMod/android_bionic" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <remove-project name="CyanogenMod/android_frameworks_native" />
@@ -18,6 +18,7 @@
   <!--  <remove-project name="CyanogenMod/android_packages_apps_Settings" />   -->
   <remove-project name="CyanogenMod/android_hardware_ti_wlan"/>
 
+  <project path="bionic" name="Quarx2k/android_bionic"  />
   <project path="frameworks/av" name="Quarx2k/android_frameworks_av"  />
   <project path="frameworks/base" name="Quarx2k/android_frameworks_base" />
   <project path="frameworks/native" name="Quarx2k/android_frameworks_native" />
@@ -37,7 +38,6 @@
   <project path="system/core" name="Quarx2k/android_system_core"  />
   <project path="frameworks/opt/telephony" name="Quarx2k/android_frameworks_opt_telephony"  />
   <!-- <project path="packages/apps/Settings" name="Quarx2k/android_packages_apps_Settings" /> -->
-  <project path="hardware/ti/wlan" name="Quarx2k/android_hardware_ti_wlan" revision="cm-10.2"   />
-  <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" revision="cm-10.2"  />
+  <project path="hardware/ti/wlan" name="Quarx2k/android_hardware_ti_wlan" revision="cm-11.0"   />
 
 </manifest>
