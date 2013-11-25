@@ -20,7 +20,7 @@
   <project path="hardware/ril" name="Quarx2k/android_hardware_ril" />
   <project path="vendor/motorola" name="czechop/proprietary_vendor_motorola" revision="cm10.1-3.0" />
   <project path="device/moto/jordan-common" name="czechop/android_device_moto_jordan-common" revision="cm11.0-3.0" />
-  <project path="device/moto/milestone2" name="czechop/android_device_moto_mb526" revision="cm10.2-3.0"  />
+  <project path="device/moto/milestone2" name="czechop/android_device_moto_milestone2" revision="cm11.0-3.0"  />
   <project path="external/bootmenu" name="Quarx2k/android_external_bootmenu" revision="jellybean"  />
   <project path="jordan-kernel" name="czechop/jordan-kernel" revision="p-android-omap3-3.0"  />
   <project path="system/core" name="Quarx2k/android_system_core" />
