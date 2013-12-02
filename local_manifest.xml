@@ -15,7 +15,7 @@
   <remove-project name="CyanogenMod/android_hardware_ti_omap3" />
   <remove-project name="CyanogenMod/android_bootable_recovery" /> 
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
-  <!--  <remove-project name="CyanogenMod/android_packages_apps_Settings" />   -->
+  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <remove-project name="CyanogenMod/android_hardware_ti_wlan"/>
 
   <project path="bionic" name="Quarx2k/android_bionic"  />
@@ -30,14 +30,13 @@
   <project path="vendor/motorola" name="czechop/proprietary_vendor_motorola" revision="jellybean"  />
   <project path="device/moto/jordan-common" name="czechop/android_device_moto_jordan-common" revision="cm11.0-2.6.32" />
   <project path="device/moto/milestone2" name="czechop/android_device_moto_milestone2" revision="cm11.0-2.6.32"  />
-   <!-- <project path="device/moto/mb520" name="CyanogenKobe/android_device_moto_mb520" revision="kitkat-aosp"  />   -->
   <project path="external/bootmenu" name="Quarx2k/android_external_bootmenu" revision="jellybean" />
   <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" revision="master"  />
   <project path="jordan-kernel" name="czechop/jordan-kernel" revision="AeroKernel" />
   <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" />
   <project path="system/core" name="Quarx2k/android_system_core"  />
   <project path="frameworks/opt/telephony" name="Quarx2k/android_frameworks_opt_telephony"  />
-  <!-- <project path="packages/apps/Settings" name="Quarx2k/android_packages_apps_Settings" /> -->
+  <project path="packages/apps/Settings" name="Quarx2k/android_packages_apps_Settings" />
   <project path="hardware/ti/wlan" name="Quarx2k/android_hardware_ti_wlan" revision="cm-11.0"   />
 
 </manifest>
