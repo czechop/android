@@ -28,7 +28,7 @@
   <project path="device/moto/milestone2" name="czechop/android_device_moto_milestone2" revision="cm10.2-2.6.32"  />
   <project path="external/bootmenu" name="Quarx2k/android_external_bootmenu" revision="jellybean"/>
   <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" revision="master" />
-  <project path="jordan-kernel" name="czechop/milestone2-kernel" revision="AeroKernel" />
+  <project path="jordan-kernel" name="czechop/milestone2-kernel" revision="refs/tags/CM10.2" />
   <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" />
   <project path="system/core" name="Quarx2k/android_system_core" />
   <project path="frameworks/opt/telephony" name="Quarx2k/android_frameworks_opt_telephony"  />
